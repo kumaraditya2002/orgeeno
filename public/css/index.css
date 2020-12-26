@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+html{
+    font-size:62.5%;
+/*     1 rem=10px */
+}
+nav{
+    background-color: #1e272e;
+    box-shadow: 0px 5px 10px grey;
+}
+.center{
+    display: block;
+    width: 50%;
+    margin: auto;   
+}
+
+.brand{
+    font-size:2rem;
+    text-shadow: 2px 2px 5px rgb(167, 98, 231);
+}
+.boxshadow{
+    border: 2px solid rgb(240, 233, 233);
+    border-radius: 3px;
+    transition: 0.3s;
+    font-size: large;
+}
+.boxshadow:hover{
+    box-shadow: 0.5px 0.5px 4px 3px blueviolet;;
+    
+}
+.margin{
+    margin-right: 50px;
+}
+
+/* footer style */
+.footer{
+    width:100%;
+    background-color: #1e272e;
+    margin-top:auto;
+}
+.footer h6{
+    font-size:2rem;
+    color:#fff;
+}
+.footer .first_part{
+    margin-top:1rem;
+}
+.footer p,.footer-small-text{
+    margin:0;
+    padding:0;
+    font-size:1.5rem;
+    /* text-align: center; */
+    color:#fff;
+    line-height: 3rem;
+}
+.footer .footer_main{
+    color:gray;
+    font-weight: 600;
+}
+.footer_sub{
+    background-color: rgb(250, 250, 98);
+    padding: 2.3rem;
+}
+.footer_sub .sub{
+  color:rgb(255, 72, 0);
+  font-weight: bold;
+}
+.subscribe input{
+    padding:0.7rem 1.5rem;
+   border: none;
+   width: 80%;
+}
+::placeholder{
+    font-size: 1.3rem;
+}
+.subscribe button{
+    background-color: rgb(253, 61, 61);
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding:0.7rem 1.7rem;
+    margin-left: -2px ;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;  
+}
+.subscribe button:hover{
+    background-color:red;
+}
+.fa-paper-plane{
+   font-size:1.3rem;
+   padding: 0;
+   margin:0;
+   width: 30%;
+   text-align: center;
+}
+.pad-0{
+    padding: 0 0;
+}
+.subfooter{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:  #1e272e;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  margin-top: 0px;
+  padding-top: 10pt;
+  padding-bottom: 0;
+  text-align: center;
+  margin: 0;
+}
+.social li {
+    display: inline-block;
+  }
+  
+  .social li a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0.5em;
+    background: #fff;
+    color: black !important;
+    position: center;
+    display: block;
+    line-height: 1.5em;
+    text-decoration: none;
+  }
+  
+  .fa-2x {
+    font-size: 2.5em !important;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+  }
+  
+  .social .fa-facebook:hover {
+    box-shadow: 0 0 2px 4px rgba(65, 103, 178, 0.4);
+  }
+  
+  .social .fa-twitter:hover {
+    box-shadow: 0 0 2px 4px rgba(29, 161, 242, 0.4);
+  }
+  .social .fa-linkedin:hover {
+    box-shadow: 0 0 2px 4px rgba(40, 103, 178, 0.4);
+  }
+  .social .fa-github:hover {
+    box-shadow: 0 0 2px 4px rgba(127, 71, 201, 0.4);
+  }
+  .social .fa-envelope:hover {
+    box-shadow: 0 0 2px 4px rgba(219, 68, 55, 0.4);
+  }
+  
+  .text-copyright {
+    background-color: #212326;
+    box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.5);
+  }
+  
