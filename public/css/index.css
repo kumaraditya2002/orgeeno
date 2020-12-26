@@ -25,8 +25,17 @@ nav{
     background-color: #1e272e;
     box-shadow: 0px 5px 10px grey;
 }
+
 nav li{
   font-weight:600;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+
 }
 .center{
     display: block;
@@ -87,10 +96,11 @@ nav li{
   text-align: center;
   font-family:  sans-serif;
 }
+
 .btn{
   padding: 6px 20px;
   border: 2px solid white;
-  background-color: none;
+  background: none;
   color: white;
   margin: 17px;
   border-radius: 3px;
