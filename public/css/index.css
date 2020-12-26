@@ -45,7 +45,7 @@ nav{
 }
 #home::before{
   content: "";
-  background:url('/public/img/bg.jpg') no-repeat center center/cover;
+  background:url('../img/bg.jpg') no-repeat center center/cover;
   position: absolute;
   top: 0;
   height: 100%;
