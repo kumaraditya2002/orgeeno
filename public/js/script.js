@@ -22,3 +22,18 @@
        }
        updateCount();
    });
+
+   // Scroll to top button
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 40) {
+      $("#scrollbtn").fadeIn();
+    } else {
+      $("#scrollbtn").fadeOut();
+    }
+  });
+  
+  $(document).ready(function () {
+    $("#scrollbtn").click(function () {
+      $("html, body").animate({ scrollTop: 0 }, 800);
+    });
+  });
