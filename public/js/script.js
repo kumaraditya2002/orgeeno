@@ -10,7 +10,7 @@
        const updateCount = () => {
            const target = +counter.getAttribute('data-target');
            const count = +counter.innerText;
-           const inc = 1;
+           const inc = 1;   
            if(count < target  && scrolled >=240){
               counter.innerText = count + inc;
               setTimeout(updateCount, 3);
