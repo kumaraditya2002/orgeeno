@@ -21,35 +21,35 @@
   <!-- nav-bar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
-    <div class="container-fluid m-3">
-      <a class="navbar-brand brand" href="#">Orgeeno</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+    <div class="container-fluid">
+      <a class="navbar-brand brand mx-5" href="#">Orgeeno</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse center" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item margin">
-            <a class="nav-link active boxshadow bg-white text-dark" aria-current="page" href="#">Home</a>
+          <li class="nav-item margin px-4">
+            <a class="nav-link active boxshadow bg-white text-dark px-4" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item margin">
-            <a class="nav-link boxshadow bg-white text-dark" href="#">About</a>
+          <li class="nav-item margin px-4">
+            <a class="nav-link boxshadow bg-white text-dark px-4" href="#">About</a>
           </li>
-          <li class="nav-item dropdown margin">
-            <a class="nav-link dropdown-toggle boxshadow bg-white text-dark" href="#" id="navbarDropdownMenuLink"
+          <li class="nav-item dropdown margin px-4">
+            <a class="nav-link dropdown-toggle px-4 boxshadow bg-white text-dark" href="#" id="navbarDropdownMenuLink"
               role="button" data-toggle="dropdown" aria-expanded="false">
               Services
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item fs-3" href="#">Contact our experts</a></li>
-              <li><a class="dropdown-item fs-3" href="#">Buy Raw Materials</a></li>
-              <li><a class="dropdown-item fs-3" href="#">Gardening techniques</a></li>
+            <ul class="dropdown-menu shad" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item fs-3 my-3 " href="#">Contact our experts</a></li>
+              <li><a class="dropdown-item fs-3 my-3 " href="#">Buy Raw Materials</a></li>
+              <li><a class="dropdown-item fs-3 my-3 " href="#">Gardening techniques</a></li>
             </ul>
-          <li class="nav-item margin">
-            <a class="nav-link boxshadow bg-white text-dark" href="#">Blog</a>
+          <li class="nav-item margin px-4">
+            <a class="nav-link boxshadow bg-white text-dark px-4" href="#">Blog</a>
           </li>
-          <li class="nav-item margin">
-            <a class="nav-link boxshadow bg-white text-dark" href="#">Contact</a>
+          <li class="nav-item margin px-4">
+            <a class="nav-link boxshadow bg-white text-dark px-4" href="#">Contact</a>
           </li>
           </li>
         </ul>
@@ -59,8 +59,8 @@
   <!-- section 1  -->
   <section id="home">
     <h1>Welcome to Orgeeno</h1>
-    <p class="fs-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat maxime vel cum .</p>
-    <p class="fs-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <p class="fs-3 d-none d-sm-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat maxime vel cum .</p>
+    <p class="fs-3 d-none d-sm-block  ">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
     <a href="about.html"><button class="btn learn_more fs-3">Learn More</button></a>
   </section>
@@ -70,34 +70,34 @@
   
   <section class="section_3">
     <h1 style="text-align: center; font-size: 4rem; line-height: 2em;">Statistical Growth</h1>
-    <div class="container">
+    <div class="container-fluid">
       <div class="static_growth row ">
-        <div class="col-lg-3 col-md-6 col-6 stats_info counter_grid1 ">
+        <div class="col-lg-2 col-md-6 col-6 stats_info counter_grid1 m-2">
           <div class="stat-icon">
             <span class="fa fa fa-users fa-2x"></span>
           </div>
-          <h1 class="counter">102</h1>
+          <h1 class="counter" data-target="102">0</h1>
           <h2>No. of Subscribers</h2>
         </div>
-        <div class="col-lg-3 col-md-6 col-6 stats_info counter_grid2 ">
+        <div class="col-lg-2 col-md-6 col-6 stats_info counter_grid2 m-2">
           <div class="stat-icon">
             <span class="fa fa-lightbulb-o fa-2x"></span>
           </div>
-          <h1 class="counter">17</h1>
+          <h1 class="counter" data-target="17">0</h1>
           <h2>Gardening techniques</h2>
         </div>
-        <div class="col-lg-3 col-md-6 col-6 stats_info counter_grid3">
+        <div class="col-lg-2 col-md-6 col-6 stats_info counter_grid3 m-2">
           <div class="stat-icon">
             <span class="fa fa-smile-o fa-2x"></span>
           </div>
-          <h1 class="counter">563</h1>
+          <h1 class="counter" data-target="563">0</h1>
           <h2>Happy Clients</h2>
         </div> 
-        <div class="col-lg-3 col-md-6 col-6 stats_info counter_grid4">
+        <div class="col-lg-2 col-md-6 col-6 stats_info counter_grid4 m-2">
           <div class="stat-icon">
             <span class="fa fa fa-heart fa-2x"></span>
           </div>
-          <h1 class="counter">53</h1>
+          <h1 class="counter" data-target="53">0</h1>
           <h2>Workshops</h2>
         </div>
       </div>
@@ -213,8 +213,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
   <script src="https://kit.fontawesome.com/ca8d4b45a8.js" crossorigin="anonymous"></script>
   <script src="public/js/script.js"></script>
 </body>
