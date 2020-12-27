@@ -107,6 +107,7 @@ nav li{
 .shad{
   box-shadow:5px 5px 12px rgba(0, 0, 0, 0.2);
 }
+
 /* section 2 style */
 .section_2{
   background-color: rgb(243, 240, 240);
@@ -124,12 +125,24 @@ nav li{
   border-radius: 10px;
 }
 .icons{
+  color: green;
   border: none;
   /* height: 50%;
   width: 50%; */
   background-color: #fff;
-  box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
+  transition: 0.4s;
+}
+.icons:hover{
+  box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.2);
+}
+#cc{
+  color: green;
+  transition: 0.4s;
+}
+.icons:hover > #cc{
+  color: rgb(78, 43, 231);
 }
 .content{
   margin-top: 1.5rem;
@@ -141,6 +154,7 @@ nav li{
   font-weight: 600;
 }
 
+/* scroll btn */
 #scrollbtn {
   position: fixed;
   bottom: 10px;
@@ -167,8 +181,6 @@ nav li{
 #scrollbtn i {
   line-height: 0.4;
 }
-
-
 
 /* section-3 style */
 .section_3{
