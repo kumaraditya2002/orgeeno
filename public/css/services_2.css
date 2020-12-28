@@ -1,14 +1,28 @@
 #main{
     margin-top: 7rem;
-    background-color: rgb(243, 237, 237);
+    /* background-color: rgb(243, 237, 237); */
+    background: url('/public/img/services_2_bg.jpg') no-repeat center center/cover;
 }
 .card{
-    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
-    height: 550px;
+    /* box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.2); */
+    height: 520px;
+    transition: 0.2s ease-in-out;
+}
+.card:hover{
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+}
+
+.card:hover .card-title{
+    color: royalblue;
+}
+.card:hover .card-text{
+    color: green;
 }
 .card-title{
     font-size: 2.5rem;
     font-weight: bold;
+    transition: 0.2s ease-in-out;
 }
 .card-img-top{
     height: 231.84px;
@@ -18,7 +32,14 @@
     margin-top: 1rem;
     color: rgb(122, 117, 117);
     font-size: 1.5rem;
+    transition: 0.2s ease-in-out;
 }
 .card-body{
     padding: 2rem;
+}
+
+.heading{
+    font-size: 6rem;
+    margin-top: 2rem;
+    text-align: center;
 }
