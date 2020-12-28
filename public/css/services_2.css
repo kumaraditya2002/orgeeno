@@ -1,11 +1,11 @@
 #main{
     margin-top: 7rem;
     /* background-color: rgb(243, 237, 237); */
-    background: url('/public/img/services_2_bg.jpg') no-repeat center center/cover;
+    background: url('https://raw.githubusercontent.com/kumaraditya2002/orgeeno/main/public/img/services_2_bg.jpg') no-repeat center center/cover;
 }
 .card{
     /* box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.2); */
-    height: 520px;
+    height: 500px;
     transition: 0.2s ease-in-out;
 }
 .card:hover{
