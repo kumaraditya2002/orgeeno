@@ -1,7 +1,6 @@
 .section_1ser2{
-  margin:7.1rem 0rem;
   margin-bottom: 0;
-  height:100vh;
+  height:612px;
   width:100vw;
   color: black;
 }
@@ -11,13 +10,21 @@
     position: absolute;
     opacity: 0.7;
     top: 0;
-    height: 112vh;
+    height:680px;
     width: 100%;
     z-index: -1;
 }
 .service_1_head{
+    margin-top:6.8rem;
     text-align: center;
 }
+.experts .tit {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    font-size: 5rem;
+    font-weight: 500;
+  }
 .service_1_head h1{
     font-size:5rem;
     font-weight: bold;
@@ -102,17 +109,20 @@
 .section_2ser2{
   margin:0rem 0rem;
   padding:2rem 0;
-  background-image: linear-gradient(45deg, #85ffbd 4%, #fffb7d 60%);
+  /* background-image: linear-gradient(45deg, #85ffbd 4%, #fffb7d 60%); */
+  background: url('../img/service_1/expert.jpg') no-repeat center center/cover;
+  opacity: 0.9;
 }
 .section_2ser2 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .section_2ser2 .card{
     text-align: center;
     margin:auto;
-    width:19rem;
+    width:18rem;
     border-radius: 15px;
 }
 .section_2ser2 .card-img-top{
@@ -121,4 +131,77 @@
 }
 .section_2ser2 .expert_card{
     margin:1.5rem 0rem;
+}
+
+/* media_query */
+@media (max-width:1000px)
+{
+    .service_1_head h1{
+        font-size:3.7rem;
+        font-weight: bold;
+        margin-bottom: 0;
+        margin-top: 0rem;
+    }
+    .service_1_head p{
+        font-size:2.2rem;
+        font-weight: 600;
+        color:black;
+        margin: 0rem 0 0rem 0;
+    }
+    .section_1ser2 .form_main p{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0rem;
+        font-weight: 600;
+        color: red;
+    }
+    .section_1ser2 .col-form-label{
+        font-size: 1.7rem !important ;
+        font-weight: bold;
+        color:cornsilk;
+    }
+    .section_1ser2 input{
+        width:100%;
+        padding:0.8rem 2rem;
+        margin:0.3rem;
+        border-radius: 10px;
+        outline:none;
+        background: none;
+        color:black;
+        border: 2px solid black;
+    }
+    ::placeholder{
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+    .section_1ser2 .form-group {
+        margin:0.3rem;
+    }
+    .section_2ser2 .card{
+        text-align: center;
+        margin:auto;
+        width:15rem;
+        border-radius: 15px;
+    }
+
+}
+
+@media (max-width: 1200px) and (min-width:1000px){
+    .section_1ser2{
+        height:685px;
+    }
+    .section_1ser2:before{
+        content: "";
+        background: url('../img/service_1/bg.jpg') no-repeat center center/cover;
+        position: absolute;
+        opacity: 0.7;
+        top: 0;
+        height:754px;
+        width: 100%;
+        z-index: -1;
+    }
+    .section_2ser2{
+        padding:0.7rem 0;
+        text-align: center;
+    }
 }
