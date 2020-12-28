@@ -25,7 +25,7 @@ body {
 nav {
   background-color: #1e272e;
   /* background: none; */
-  box-shadow: 0px 3px 10px grey;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
 }
 nav li {
   font-weight: 600;
@@ -66,24 +66,16 @@ nav li {
   justify-content: center;
   align-items: center;
   /* height: 560px; */
-  font-family: "Piazzolla", serif;
-}
-#home::before {
-  content: "";
   background: url("../img/bg1.jpg") no-repeat center center/cover;
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  opacity: 0.82;
+  font-family: "Piazzolla", serif;
 }
 
 #home h1 {
+  margin-top: 5rem;
   color: white;
   text-align: center;
   font-family: "Piazzolla", serif;
-  font-size: 4.2rem;
+  font-size: 5rem;
   font-weight: bold;
 }
 #home p {
@@ -292,7 +284,7 @@ nav li {
   width: 100%;
   background-color: #1e272e;
   margin-top: auto;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
 }
 .footer h6 {
   font-size: 2rem;
@@ -438,7 +430,7 @@ nav li {
   }
   #home h1,
   .tit {
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     text-align: center;
   }
   .titl {

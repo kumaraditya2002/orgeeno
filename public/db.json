@@ -1,0 +1,41 @@
+{
+    "Techniques":
+    [
+        {
+            "t_id":"1",
+            "t_name":"Container Gardening Method",
+            "t_img":"https://morningchores.com/wp-content/uploads/2019/03/container_gardening_1553975248.jpg",
+            "t_disc":"Container gardening can work no matter where you’re located. It consists of growing crops in different containers.This can be       planters or as simple as buckets. Container gardening works great for growing tomatoes, peppers,root vegetables, green beans, and lettuce."
+        },
+        {
+            "t_id":"2",
+            "t_name":"Traditional Inground Gardening",
+            "t_img":"https://morningchores.com/wp-content/uploads/2018/01/planting-a-garden-1-800x533.jpg",
+            "t_disc":"When you hear the term gardening, you may envision a small plot of ground that has been tilled, planted, and cared for to produce vegetables and fruits.This is what traditional inground gardening looks like. Your plot can be as small or large as you have room for."
+        },
+        {
+            "t_id":"3",
+            "t_name":"Raised Bed Gardening",
+            "t_img":"https://morningchores.com/wp-content/uploads/2019/03/raised_beds_1553975296.jpg",
+            "t_disc":"Raised bed gardening is one of the hottest styles of gardening going on right now. The reason being, it looks stylish in your yard, it’s easy on your knees and back, the soil is easier to care for, and weeds are easier to control."
+        },
+        {
+            "t_id":"4",
+            "t_name":"Vertical Gardening",
+            "t_img":"https://morningchores.com/wp-content/uploads/2018/03/vertical_garden_1522012293-600x800.jpg",
+            "t_disc":"I love the idea of a vertical garden because I like to know people can garden anywhere regardless of where they choose to live.Some gardeners live in the city for their job but still enjoy fresh food. City dwellers are ideal candidates for vertical gardening because food can grow well on balconies, patios, and even indoors."
+        },
+        {
+            "t_id":"5",
+            "t_name":" Hydroponic Gardening",
+            "t_img":"https://morningchores.com/wp-content/uploads/2019/03/hydroponic_garden_1553975350.jpg",
+            "t_disc":"As we move forward with science and technology, hydroponic gardening is becoming the norm for foods we purchase at large chain grocery stores.The process of hydroponic gardening is you purchase a set-up where your plants grow in a solution that gives them their desired nutrients and oxygen instead of planting them in soil."
+        },
+        {
+            "t_id":"6",
+            "t_name":"Aquaponics Gardening",
+            "t_img":"https://media.istockphoto.com/photos/hydroponic-vegetable-in-plantation-nursery-of-agriculture-food-i-picture-id1162141432?k=6&m=1162141432&s=612x612&w=0&h=QO_GoPIiL98vbHvwEajWENxPq7HWN-ELLqWTFOA777E=",
+            "t_disc":"Aquaponics is another modern style of gardening. It requires a proper set-up, but it’s a fascinating way to grow your own food.The idea behind aquaponics is you raise both fish and vegetables simultaneously. Plants grow in a solution similar to what you’d use to grow vegetables in hydroponics."
+        }
+    ]
+}
