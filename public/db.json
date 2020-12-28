@@ -36,6 +36,42 @@
             "t_name":"Aquaponics Gardening",
             "t_img":"https://media.istockphoto.com/photos/hydroponic-vegetable-in-plantation-nursery-of-agriculture-food-i-picture-id1162141432?k=6&m=1162141432&s=612x612&w=0&h=QO_GoPIiL98vbHvwEajWENxPq7HWN-ELLqWTFOA777E=",
             "t_disc":"Aquaponics is another modern style of gardening. It requires a proper set-up, but it’s a fascinating way to grow your own food.The idea behind aquaponics is you raise both fish and vegetables simultaneously. Plants grow in a solution similar to what you’d use to grow vegetables in hydroponics."
+        },
+        {
+            "t_id":"7",
+            "t_name":"Square Foot Gardening",
+            "t_img":"https://morningchores.com/wp-content/uploads/2018/01/Guide-to-Growing-Lettuces.jpg",
+            "t_disc":"Land is a difficult thing to come by these days. The price keeps going higher making it harder for people to own much of it anymore This is why I’m ecstatic about people working diligently to figure out how to make do and grow food with the amount of land they have.Square foot gardening does require you to have some land to grow on. However, it doesn’t require you to have as much land as a traditional style garden."
+        },
+        {
+            "t_id":"8",
+            "t_name":"Upside-down Gardening",
+            "t_img":"https://beesandroses.com/wp-content/uploads/2020/01/shutterstock_1091993708-scaled.jpg",
+            "t_disc":"Whether you’re trying to grow more foods or you’re short on space, learning how to grow certain crops upside down is an interesting approach to making optimum use of space This style of gardening is traditionally used to grow tomatoes. If you’re a fan of tomatoes but fear you don’t have the room to grow as many as you’d like (or any at all) consider growing them upside down."
+        },
+        {
+            "t_id":"9",
+            "t_name":"Hanging Gardens",
+            "t_img":"https://images.ctfassets.net/zma7thmmcinb/42nUtcjGS3mtD9aLCeZ615/e7191d0a85fe39003b5caee38656e91d/hanging-basket-liner-options-lead.jpg",
+            "t_disc":"Did you assume your hanging planters were meant only for gorgeous flowers? Prepare to have your mind blown Anything you can grow a flower in, you can find a vegetable to grow equally as well. If you’re going to use basic hanging baskets, you can grow any shallow-rooted plant For instance, peppers, tomatoes, lettuce, spinach, herbs, cucumbers, and squash would all grow well in a hanging basket."
+        },
+        {
+            "t_id":"10",
+            "t_name":"Edible Landscaping",
+            "t_img":"https://marvel-b1-cdn.bc0a.com/f00000000139987/www.gardeners.com/on/demandware.static/-/Library-Sites-SharedLibrary/default/dw2754bc03/Articles/Gardening/Content/7986-cabbages.jpg",
+            "t_disc":"Do you live where HOA’s make your life complicated when it comes to gardening? I understand HOA’s can be great for many things, but you may be able to find a way around the issue with growing veggies Instead of growing a traditional style garden, consider using some non-traditional methods mentioned above."
+        },
+        {
+            "t_id":"11",
+            "t_name":"Window Box Gardening",
+            "t_img":"https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1800&h=942&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F23%2F2019%2F04%2F24%2Fcontainer-gardening-window-box-0519hom.jpg",
+            "t_disc":"This gardening option goes along with edible landscaping. Whether you’re looking for more space to grow in an apartment, subtle ways to grow in an area with an HOA, or you prefer to grow your crops close to home, this style of gardening is for you Again, don’t assume where you only plant flowers, other plants shouldn’t grow. In fact, you can grow tomatoes, peppers, cucumbers, squash, and other smaller crops in window boxes."
+        },
+        {
+            "t_id":"12",
+            "t_name":"Keyhole Gardening",
+            "t_img":"https://thisnzlife.co.nz/wp-content/uploads/2019/09/IYBY_Chapter_3_Care_keyhole_29.jpg",
+            "t_disc":"If you’re looking for a smaller gardening area that is also easily maintained, a keyhole garden is perfect for you The idea behind a keyhole garden is it’s a circular shape that looks similar to Pac-man. (Am I telling on my age here?) There’s a sliver carved out which allows you to walk into the garden and care for it properly The garden is also built on a slight slope. In the center is a compost pile you can continuously fill throughout the year. This will feed the soil all year long."
         }
     ]
 }
