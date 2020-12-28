@@ -1,5 +1,24 @@
-.main{
-    height: 100vh;
-    background: url("/public/img/services2_bg.jpg") no-repeat center center/cover;
+#main{
+    margin-top: 7rem;
+    background-color: rgb(243, 237, 237);
 }
-
+.card{
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+    height: 492px;
+}
+.card-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.card-img-top{
+    height: 231.84px;
+    width: 348px;
+}
+.card-text{
+    margin-top: 1rem;
+    color: rgb(122, 117, 117);
+    font-size: 1.5rem;
+}
+.card-body{
+    padding: 2rem;
+}
