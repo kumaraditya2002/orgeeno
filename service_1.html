@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="public/css/index.css">
+    <link rel="stylesheet" href="public/css/service_1.css">
+
+    <title>ORGEENO</title>
+</head>
+
+<body>
+
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <div class="container-fluid">
+            <a class="navbar-brand brand mx-5" href="#">Orgeeno</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item margin px-4">
+                        <a class="nav-link active boxshadow bg-white text-dark px-4" aria-current="page"
+                            href="#">Home</a>
+                    </li>
+                    <li class="nav-item margin px-4">
+                        <a class="nav-link boxshadow bg-white text-dark px-4" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown margin px-4">
+                        <a class="nav-link dropdown-toggle px-4 boxshadow bg-white text-dark" href="#"
+                            id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu shad" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item fs-3 my-3 " href="#">Contact our experts</a></li>
+                            <li><a class="dropdown-item fs-3 my-3 " href="#">Buy Raw Materials</a></li>
+                            <li><a class="dropdown-item fs-3 my-3 " href="#">Gardening techniques</a></li>
+                        </ul>
+                    <li class="nav-item margin px-4">
+                        <a class="nav-link boxshadow bg-white text-dark px-4" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item margin px-4">
+                        <a class="nav-link boxshadow bg-white text-dark px-4" href="#">Contact</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- section-1 -->
+    <section class="section_1ser2">
+        <div class="container">
+            <div class="service_1_head">
+                <h1>Connet with <span class="our_expert">OUR EXPERTS</span></h1>
+                <p>You are just a step away from our experts</p>
+                <a id="scrollbtn"><i class="fa fa-arrow-up"></i></a>
+            </div>
+            <div class="form_main">
+                <p>Fill this form so, our expert can contact you!</p>
+                <form class="form_body">
+                    <div class="form-group row">
+                        <label for="inputName" class="col-sm-3 col-form-label">Name : <span
+                                class="asterisk">&#42;</span></label>
+                        <div class="col-sm-4">
+                            <input type="texT" class="form-control" id="inputName"
+                                placeholder="Enter &nbsp; First &nbsp;Name" required>
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="inputName"
+                                placeholder="Enter &nbsp;Last &nbsp; Name" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputAddress" class="col-sm-3 col-form-label">Address : <span
+                                class="asterisk">&#42;</span></label>
+                        <div class="col-sm-7">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <input type="text" class="form-control" id="inputAddress"
+                                        placeholder="Street Address" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <input type="texT" class="form-control" id="inputAddress" placeholder="City"
+                                        required>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" id="inputAddress"
+                                        placeholder="State / Province" required>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" id="inputAddress"
+                                        placeholder="Postal / Zip Code" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-3 col-form-label">Email : <span
+                                class="asterisk">&#42;</span> </label>
+                        <div class="col-sm-7">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPhone" class="col-sm-3 col-form-label">Phone Number : <span
+                                class="asterisk">&#42;</span></label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="inputPhone" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputExpert" class="col-sm-3 col-form-label">Preferred expert</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="inputExpert" placeholder="Name of Expert">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputDate" class="col-sm-3 col-form-label">Preferred Date : <span
+                                class="asterisk">&#42;</span></label>
+                        <div class="col-sm-5">
+                            <input type="date" class="form-control" id="inputDate"
+                                placeholder="Date On which our expert contact you" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputTime" class="col-sm-3 col-form-label">Preferred Time : <span
+                                class="asterisk">&#42;</span></label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="inputTime" placeholder="Time Range" required>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </form>
+            </div>
+        </div>
+    </section>
+     <!-- section-2 -->
+     <section class="section_2ser2">
+         <div class="experts container">
+             <h1 class="tit">Our Experts</h1>
+             <div class="row">
+                 <div class="col-sm-3 col-4 expert_card">
+                    <div class="card" >
+                        <img class="card-img-top" src="public/img/service_1/person.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Name of Expert</h5>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-sm-3 col-4 expert_card">
+                    <div class="card" style="width: 19rem; margin:auto;">
+                        <img class="card-img-top" src="public/img/service_1/person.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Name of Expert</h5>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-sm-3 col-4 expert_card">
+                    <div class="card" style="width: 19rem; margin:auto;">
+                        <img class="card-img-top" src="public/img/service_1/person.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Name of Expert</h5>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-sm-3 col-4 expert_card">
+                    <div class="card">
+                        <img class="card-img-top" src="public/img/service_1/person.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Name of Expert</h5>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-sm-3 col-4 expert_card">
+                    <div class="card" >
+                        <img class="card-img-top" src="public/img/service_1/person.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Name of Expert</h5>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-sm-3 col-4 expert_card">
+                    <div class="card">
+                        <img class="card-img-top" src="public/img/service_1/person.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Name of Expert</h5>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-sm-3 col-4 expert_card">
+                    <div class="card">
+                        <img class="card-img-top" src="public/img/service_1/person.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Name of Expert</h5>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-sm-3 col-4 expert_card">
+                    <div class="card">
+                        <img class="card-img-top" src="public/img/service_1/person.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Name of Expert</h5>
+                        </div>
+                      </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <div>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-6 mt-3 first_footer_col">
+                <h6>Contact</h6>
+                <div class="first_part">
+                  <p><span class="footer_main">Address:</span></p>
+                  <p>Deal, 433 California St, Suite 300 San Francisco, CA 94104, USA</p>
+                </div>
+                <div class="first_part">
+                  <p><span class="footer_main">Email :</span></p>
+                  <p>mailid@mail.com</p>
+                </div>
+                <div class="first_part">
+                  <p><span class="footer_main">Phone :</span></p>
+                  <p>+44-99-55-42</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-6 mt-3 second_footer_col">
+                <h6>Company</h6>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Services</p>
+                <p>Blog</p>
+                <p>Contact Us</p>
+              </div>
+              <div class="col-lg-3 col-6 mt-3 hidden">
+                <h6>Latest Posts</h6>
+                <ul class="list-unstyled d-flex flex-wrap">
+                  <li class="">
+                    <div class="row">
+                      <a class="col-md-5 col-4" href="blog-single.html">
+                        <img class="rounded img-fluid img-responsive" src="" alt="image">
+                      </a>
+                      <div class="col pl-0">
+                        <a class="footer-small-text" href="blog-single.html">Lorem ipsum dolor sit amet adipiscin elit</a>
+                        <div class="text-sub-small">Mar 31st</div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mt-md-0 mt-2">
+                    <div class="row my-2 my-md-3">
+                      <a class="col-md-5 col-4" href="blog-single.html">
+                        <img class="rounded img-fluid img-responsive" src="" alt="image">
+                      </a>
+                      <div class="col pl-0">
+                        <a class="footer-small-text" href="blog-single.html">Cras at nunc sagittis, suscipit dolor</a>
+                        <div class="text-sub-small">Apr 03rd</div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-6 mt-3 hidden">
+                <h6>Subscribe</h6>
+                <div class="footer_sub">
+                  <p class="sub">Get latest updates and offers.</p>
+                  <form action="#" class="subscribe" method="post">
+                    <input type="email" name="email" placeholder="Email Address" required="">
+                    <button><span class="fa fa-paper-plane" aria-hidden="true"></span></button>
+                  </form>
+                  <p><span class="sub">Subscribe To Stay Informed On Services, Offers And Discounts.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid pad-0">
+            <div class="row subfooter">
+              <ul class="social list-unstyled mt-4">
+                <li>
+                  <a href="https://www.facebook.com/geekhaveniiita" target="_blank" class="fab fa-2x fa-facebook icon"></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/geekhaveniiita?s=20" target="_blank" class="fab fa-2x fa-twitter icon"></a>
+                </li>
+    
+                <li>
+                  <a href="https://www.linkedin.com/company/geekhaven-iiita" target="_blank"
+                    class="fab fa-2x fa-linkedin icon"></a>
+                </li>
+    
+                <li>
+                  <a href="https://github.com/GeekHaven/" target="_blank" class="fab fa-2x fa-github icon"></a>
+                </li>
+                <li>
+                  <a href="mailto:geekhaven@iiita.ac.in" target="_blank" class="fa fa-2x fa-envelope icon"></a>
+                </li>
+              </ul>
+              <div class="text-copyright">
+                <p class="m-0 pb-3 pt-2">
+                  © Copyright | All Rights Reserved <strong class="bg-white">Orgeeno</strong> | Company
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    <!-- script tags -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ca8d4b45a8.js" crossorigin="anonymous"></script>
+    <script src="public/js/script.js"></script>
+</body>
+
+</html>
