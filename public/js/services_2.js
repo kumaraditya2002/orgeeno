@@ -5,7 +5,7 @@ fetch(url).then(res => res.json())
 .then(data=>{
     console.log(data);
     data["Techniques"].forEach(element => {
-        hstr += `<div class="col-sm-3 m-5">
+        hstr += `<div class="col-sm-3 m-5"data-aos="fade-up" data-aos-delay="100" >
         <div class="card" style="width: 35rem;">
             <img src="${element["t_img"]}" class="card-img-top" alt="...">
             <div class="card-body">
