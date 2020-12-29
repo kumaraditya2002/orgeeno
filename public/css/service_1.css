@@ -1,108 +1,112 @@
 .section_1ser2{
-  margin-bottom: 0;
-  height:612px;
-  width:100vw;
+  margin-top: 7rem;
   color: black;
+  /* background-image: url('../img/service_1/bg.jpg'); */
 }
-.section_1ser2:before{
-    content: "";
-    background: url('../img/service_1/bg.jpg') no-repeat center center/cover;
-    position: absolute;
-    opacity: 0.7;
-    top: 0;
-    height:680px;
-    width: 100%;
-    z-index: -1;
-}
-.service_1_head{
-    margin-top:6.8rem;
-    text-align: center;
-}
-.experts .tit {
-    padding-top: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
-    font-size: 5rem;
-    font-weight: 500;
-  }
+
 .service_1_head h1{
-    font-size:5rem;
-    font-weight: bold;
-    margin-bottom: 0;
-    margin-top: 0rem;
-}
-.service_1_head .our_expert{
-    color:rgb(37, 206, 110);
-}
-.service_1_head p{
-    font-size:2.5rem;
-    font-weight: 600;
-    color:black;
-    margin: 0rem 0 0rem 0;
-}
-.section_1ser2 .form_body{
-    width:75%;
+    font-size: 4rem;
     text-align: center;
+    margin-top: 10rem;
+    font-weight: 600;
+    background: -webkit-linear-gradient(360deg,blue,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.service_1_head h3{
+    text-align: center;
+}
+ 
+.flabel{
+    background: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1.5rem;
+    position: relative;
+    top: -3.5rem;
+    left: 2.5rem;
+    transition: 0.3s ease-in-out;
+}
+form{
+    border: none;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0,0.1);
+    border-radius: 3px;
+    padding: 3rem;
     display: block;
+    width: 80%;
     margin: auto;
-    background: rgba(200, 200, 200, 0.35);
-    /* border:2px solid black; */
-    padding:0rem;
-    margin-top: 0.7rem;
-    margin-bottom: 0;
 }
-.section_1ser2 .form_main{
-    display: block;
-    align-items: center;
-    margin:auto;
-}
-.section_1ser2 .form_main p{
-    text-align: center;
-    font-size: 2.2rem;
-    margin-bottom: 0rem;
-    font-weight: 600;
-    color: red;
-}
-.section_1ser2 .col-form-label{
-    font-size: 2rem !important ;
-    font-weight: bold;
-    color:cornsilk;
-}
-.section_1ser2 .asterisk{
-    color:red;
-    font-size: 2rem;
-}
-.section_1ser2 input{
-    width:100%;
-    padding:1rem 2.4rem;
-    margin:0.5rem;
-    border-radius: 10px;
-    outline:none;
-    background: none;
-    color:black;
-    border: 2px solid black;
-}
-::placeholder{
-    font-weight: 500;
+.form-control{
+    padding: 1.1rem 0.9rem;
     font-size: 1.6rem;
 }
-.section_1ser2 .form-group {
-    margin:0.4rem;
+
+.form_input:focus +.flabel{
+    font-size: 1.3rem;
+    color:green;
+    top: -5.8rem;
+    left: .8rem;
+    font-weight: 500;
+    z-index: 10;
 }
-.section_1ser2 .btn{
-    margin:0;
-    padding:0.8rem 2.4rem;
-    background-color: blueviolet;
-    color:cornsilk;
-    font-size: 1.5rem;
-    font-weight: 800;
-    cursor: pointer;
-    margin-bottom: 0.8rem;
+.form-control:focus{
+    background-color: white;
+    border: 1px solid green;
+
 }
-.section_1ser2 .btn:hover{
-    background: none;
-    border:2px solid blueviolet;
-    color:blueviolet;
+.form_input:not(:placeholder-shown).form_input:not(:focus)+ .flabel{
+    top: -5.8rem;
+    left: .8rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    z-index: 10;
+}
+.ourAdd
+{
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+}
+.mg{
+    margin-bottom: 5rem;
+}
+.hpara{
+    margin: 1.5rem;
+    color: greenyellow;
+    font-size: 3rem;
+}
+.ci{
+    transition: 0.4s;
+    color: green;
+}
+.contact{
+    margin-right: 3rem;
+}
+.contact:hover .ci{
+    color: white;
+}
+.contact:hover>.icons{
+    background-color: green;
+}
+.content h1{
+    font-weight: 600;
+}
+.icons{
+    transition: 0.4s;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid green;
+    color: green;
+    padding: 1rem;
+}
+.content{
+    display: inline;
 }
 
 /* section-2 style */
@@ -156,6 +160,7 @@
         color: red;
     }
     .section_1ser2 .col-form-label{
+        display: inline;
         font-size: 1.7rem !important ;
         font-weight: bold;
         color:cornsilk;
@@ -164,7 +169,7 @@
         width:100%;
         padding:0.8rem 2rem;
         margin:0.3rem;
-        border-radius: 10px;
+        border-radius: 0.25rem;
         outline:none;
         background: none;
         color:black;

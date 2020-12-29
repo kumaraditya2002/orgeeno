@@ -40,6 +40,8 @@
 
 .heading{
     font-size: 6rem;
+    font-weight: bold;
     margin-top: 2rem;
+    color: green;
     text-align: center;
 }
