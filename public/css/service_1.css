@@ -41,7 +41,24 @@
     padding: 1.1rem 0.9rem;
     font-size: 1.6rem;
 }
-
+.flabelForM{
+    background: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1.5rem;
+    position: relative;
+    top: -12.5rem;
+    left: 2.5rem;
+    transition: 0.3s ease-in-out;
+}
+.form_input:focus +.flabelForM{
+    font-size: 1.3rem;
+    color:green;
+    top: -15.8rem;
+    left: .8rem;
+    font-weight: 500;
+    z-index: 10;
+}
 .form_input:focus +.flabel{
     font-size: 1.3rem;
     color:green;
@@ -57,6 +74,13 @@
 }
 .form_input:not(:placeholder-shown).form_input:not(:focus)+ .flabel{
     top: -5.8rem;
+    left: .8rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    z-index: 10;
+}
+.form_input:not(:placeholder-shown).form_input:not(:focus)+ .flabelForM{
+    top: -15.8rem;
     left: .8rem;
     font-size: 1.3rem;
     font-weight: 500;
