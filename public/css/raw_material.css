@@ -1,0 +1,33 @@
+.section_1{
+    margin-top: 10rem;
+}
+.section_2{
+    padding-bottom:3rem;
+    /* margin: 1rem; */
+}
+.section_2 h1{
+    font-size: 4rem;
+    font-family: "Piazzolla", serif;
+    font-weight: 800;
+}
+.heig{
+    height:220px;
+    width:300px;
+}
+.crd1{
+    box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.2);
+    margin:1rem;
+}
+.crd1:hover{
+    cursor: pointer;
+    background-color:  #1e272e;
+    border:4px solid  #1e272e;
+    color:white;
+}
+.card-title{
+    font-size:2rem;
+    font-weight: 700;
+}
+.card-title:hover{
+    color:white;
+}
