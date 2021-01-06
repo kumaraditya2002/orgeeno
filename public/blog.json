@@ -1,0 +1,35 @@
+{
+    "Poster":
+    [
+        {
+            "b_id":"1",
+            "b_name":"Nancy Pandit",
+            "b_img":"https://www.kitchengarden.co.uk/wp-content/uploads/sites/30/2020/09/BZ-HomeGrown-1124-1-960x638.jpg",
+            "b_disc":"Lorem ipsum dolor sit amet consectetur."
+        },
+        {
+            "b_id":"2",
+            "b_name":"Kajori Sardar",
+            "b_img":"https://image.shutterstock.com/image-photo/fresh-aromatic-culinary-herbs-white-600w-1204348237.jpg",
+            "b_disc":"Lorem ipsum dolor sit amet consectetur."
+        },
+        {
+            "b_id":"3",
+            "b_name":"Rahul Rai",
+            "b_img":"https://image.shutterstock.com/image-photo/community-kitchen-garden-raised-beds-600w-1420905386.jpg",
+            "b_disc":"Lorem ipsum dolor sit amet consectetur."
+        },
+        {
+            "b_id":"4",
+            "b_name":"Abhijeet sahoo",
+            "b_img":"https://image.shutterstock.com/image-photo/small-plant-pot-displayed-window-600w-240381874.jpg",
+            "b_disc":"Lorem ipsum dolor sit amet consectetur."
+        },
+        {
+            "b_id":"5",
+            "b_name":"Jyoti Roy",
+            "b_img":"https://image.shutterstock.com/image-photo/growing-vegetables-kitchen-garden-260nw-492740947.jpg",
+            "b_disc":"Lorem ipsum dolor sit amet consectetur."
+        }
+    ]
+}

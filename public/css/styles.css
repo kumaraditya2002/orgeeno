@@ -92,6 +92,9 @@ nav li {
     margin-top: auto;
     /* padding: 1rem 0; */
   }
+  .footer a{
+    text-decoration: none;
+  }
   .footer h6 {
     font-size: 2rem;
     color: #fff;
