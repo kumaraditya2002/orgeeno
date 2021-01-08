@@ -22,6 +22,12 @@ mongoose.connect(process.env.MONGODB_URI,{
 });
 
 app.get('/', (req, res) => res.render('index'));
+app.get('/about', (req, res) => res.render('about'));
+app.get('/blog', (req, res) => res.render('blog'));
+app.get('/contact', (req, res) => res.render('contact'));
+app.get('/raw_material', (req, res) => res.render('raw_material'));
+app.get('/service_1', (req, res) => res.render('service_1'));
+app.get('/services_2', (req, res) => res.render('services_2'));
 
 //server 
 app.listen(port,()=>{
