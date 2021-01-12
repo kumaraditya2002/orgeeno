@@ -1,12 +1,12 @@
-// let url="https://raw.githubusercontent.com/kumaraditya2002/orgeeno/main/public/blog.json";
-let url = "public/blog.json";
+// let url="https://raw.githubusercontent.com/kumaraditya2002/orgeeno/main/public/js/blog.json";
+let url = 'https://raw.githubusercontent.com/kumaraditya2002/orgeeno/main/public/blog.json';
 let container = document.getElementById("maincontent")
 let hstr="";
-let i=1;
+// let i=1;
 fetch(url).then(res => res.json())
 .then(data=>{
     console.log(data);
-    data["Poster"].forEach(element => {
+    data["Poster"].forEach((element,i) => {
         hstr +=`<div class="col-md-4 col-6 mar" data-aos="fade-up" data-aos-delay="100" >
         <div class="card">
         <img src="${element["b_img"]}" class="card-img-top" alt="...">
