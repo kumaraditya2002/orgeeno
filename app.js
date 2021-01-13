@@ -28,8 +28,9 @@ app.get('/contact', (req, res) => res.render('contact'));
 app.get('/raw_material', (req, res) => res.render('raw_material'));
 app.get('/service_1', (req, res) => res.render('service_1'));
 app.get('/services_2', (req, res) => res.render('services_2'));
+app.get('/sex', (req, res) => res.send('sex'));
 app.post('/login',(req,res)=>{
-    
+  
 })
 
 //server 
