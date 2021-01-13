@@ -1,0 +1,104 @@
+
+.btn{
+  border-radius: 36px;
+  background: #FEE996;
+}
+form h2{
+  font-size: 4em;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+form {
+    width: 360px;
+    margin: 15rem auto;
+    padding: 30px;
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: white;
+}
+
+.form_input{
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1.5em;
+  width: 100%;
+}
+#cb{
+    display: inline;
+    width: 6%;
+}
+
+.flabel{
+    background: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1.5rem;
+    position: relative;
+    top: -3.4rem;
+    left: 1.5rem;
+    transition: 0.2s ease-in-out;
+}
+.form_input:focus +.flabel{
+    font-size: 1.3rem;
+    color:green;
+    top: -5.2rem;
+    left: .8rem;
+    font-weight: 500;
+    z-index: 10;
+}
+.form_input:focus{
+  border-color: rgb(39, 212, 39);
+}
+.form_input:not(:placeholder-shown).form_input:not(:focus)+ .flabel{
+    top: -5.2rem;
+    left: 0.8rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    z-index: 10;
+}
+button {
+    margin-top: 30px;
+    border-radius: 36px;
+    background: #FEE996;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4em;
+    display: block;
+    padding: 10px 19px;
+    letter-spacing: 2px;
+}
+.error{
+  color: #ff0099;
+  margin: 10px 2px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+header{
+  display: flex;
+  align-items: center;
+}
+header img{
+  width: 250px;
+  margin-right: 40px;
+}
+header h2{
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+header h3{
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  color: #999;
+}
+header .btn{
+  margin-top: 20px;
+  padding: 12px 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 0.8em;
+}
+

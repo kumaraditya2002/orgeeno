@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="../public/css/styles.css">
+    <link rel="stylesheet" href="../public/css/login.css">
+
+    <title>Login | Orgeeno</title>
+</head>
+
+<body>
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <div class="container-fluid">
+            <a class="navbar-brand brand mx-5" href="/">Orgeeno</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item margin px-4">
+                        <a class="nav-link active boxshadow bg-white text-dark px-4" aria-current="page"
+                            href="/">Home</a>
+                    </li>
+                    <li class="nav-item margin px-4">
+                        <a class="nav-link boxshadow bg-white text-dark px-4" href="/about">About</a>
+                    </li>
+                    <li class="nav-item dropdown margin px-4">
+                        <a class="nav-link dropdown-toggle px-4 boxshadow bg-white text-dark" href="#"
+                            id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu shad" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item fs-3 my-3 " href="/service_1">Contact our experts</a></li>
+                            <li><a class="dropdown-item fs-3 my-3 " href="/raw_material">Buy Raw Materials</a></li>
+                            <li><a class="dropdown-item fs-3 my-3 " href="/services_2">Gardening techniques</a></li>
+                        </ul>
+                    <li class="nav-item margin px-4">
+                        <a class="nav-link boxshadow bg-white text-dark px-4" href="/blog">Blog</a>
+                    </li>
+                    <li class="nav-item margin px-4">
+                        <a class="nav-link boxshadow bg-white text-dark px-4" href="/contact">Contact</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <a id="scrollbtn"><i class="fa fa-arrow-up"></i></a>
+<form>
+    <h2>Login</h2>
+    <input type="text" name="email" required class="form_input" placeholder=" "/>
+    <label for="email" class="flabel">Email</label>
+    <div class="email error"></div>
+    <input type="password" name="password" class="form_input" placeholder=" " required id="p"/>
+    <label for="password" class="flabel">Password</label>
+    <div class="password error"></div>
+    <input type="checkbox" id="cb"> <span style="font-size: 1.6rem;">Show Password</span>
+        <button>Login</button>
+</form>
+<div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-6 mt-3 first_footer_col">
+                    <h6>Contact</h6>
+                    <div class="first_part">
+                        <p><span class="footer_main">Address:</span></p>
+                        <p>Deal, 433 California St, Suite 300 San Francisco, CA 94104, USA</p>
+                    </div>
+                    <div class="first_part">
+                        <p><span class="footer_main">Email :</span></p>
+                        <p>mailid@mail.com</p>
+                    </div>
+                    <div class="first_part">
+                        <p><span class="footer_main">Phone :</span></p>
+                        <p>+44-99-55-42</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6 mt-3 second_footer_col">
+                    <h6>Company</h6>
+                    <a href="/index">
+                      <p>Home</p>
+                    </a>
+                    <a href="/about">
+                      <p>About</p>
+                    </a>
+                    <!-- <a href="service.html"><p>Services</p></a> -->
+                    <a href="/blog">
+                      <p>Blog</p>
+                    </a>
+                    <a href="/contact">
+                      <p>Contact</p>
+                    </a>
+                  </div>
+                <div class="col-lg-3 col-6 mt-3 hidden">
+                    <h6>Latest Posts</h6>
+                    <ul class="list-unstyled d-flex flex-wrap">
+                        <li class="">
+                            <div class="row">
+                                <a class="col-md-5 col-4" href="blog-single.html">
+                                    <img class="rounded img-fluid img-responsive" src="../public/img/lp1.jpg" height="200px" width="200px" alt="image">
+                                </a>
+                                <div class="col pl-0">
+                                    <a class="footer-small-text" href="blog-single.html">Lorem ipsum dolor sit amet
+                                        adipiscin elit</a>
+                                    <div class="text-sub-small">Mar 31st</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mt-md-0 mt-2">
+                            <div class="row my-2 my-md-3">
+                                <a class="col-md-5 col-4" href="blog-single.html">
+                                    <img class="rounded img-fluid img-responsive" src="../public/img/lp2.jpg" height="200px" width="200px" alt="image">
+                                </a>
+                                <div class="col pl-0">
+                                    <a class="footer-small-text" href="blog-single.html">Cras at nunc sagittis,
+                                        suscipit dolor</a>
+                                    <div class="text-sub-small">Apr 03rd</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-6 mt-3 hidden">
+                    <h6>Subscribe</h6>
+                    <div class="footer_sub">
+                        <p class="sub">Get latest updates and offers.</p>
+                        <form action="#" class="subscribe" method="post">
+                            <input type="email" name="email" placeholder="Email Address" required="">
+                            <button><span class="fa fa-paper-plane" aria-hidden="true"></span></button>
+                        </form>
+                        <p><span class="sub">Subscribe To Stay Informed On Services, Offers And Discounts.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pad-0">
+            <div class="row subfooter">
+                <ul class="social list-unstyled mt-4">
+                    <li>
+                        <a href="https://www.facebook.com/geekhaveniiita" target="_blank"
+                            class="fab fa-2x fa-facebook icon"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/geekhaveniiita?s=20" target="_blank"
+                            class="fab fa-2x fa-twitter icon"></a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/company/geekhaven-iiita" target="_blank"
+                            class="fab fa-2x fa-linkedin icon"></a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/GeekHaven/" target="_blank"
+                            class="fab fa-2x fa-github icon"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:geekhaven@iiita.ac.in" target="_blank"
+                            class="fa fa-2x fa-envelope icon"></a>
+                    </li>
+                </ul>
+                <div class="text-copyright">
+                    <p class="m-0 pb-3 pt-2">
+                        © 2020 Copyright | All Rights Reserved Orgeeno.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- script tags -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/ca8d4b45a8.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="../public/js/script.js"></script>
+<script src="../public/js/login.js"></script>
+</body>
+
+</html>
+
