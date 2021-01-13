@@ -53,9 +53,74 @@
           </li>
         </ul>
       </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">SignUp</button>
     </div>
   </nav>
   <a id="scrollbtn"><i class="fa fa-arrow-up"></i></a>
+  <!-- sign up Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Create Account</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputPassword1"><b>Your name</b></label>
+              <input type="text" class="form-control" id="exampleInputname1" placeholder="Enter your Name">
+            </div>
+
+            <div class="mb-3">
+              <select class="custom-select" id="inputGroupSelect02"
+                style="width:90px; background-color: rgb(238, 238, 238);">
+                <option selected>IN +91</option>
+                <option value="1">Afghanistan +93</option>
+                <option value="2">Albania +355</option>
+                <option value="3">Algeria +213</option>
+                <option value="4">American Samoa +1</option>
+                <option value="5">Andorra +376</option>
+                <option value="6">Angola +244</option>
+                <option value="7">Antigua & Barbuda +1</option>
+                <option value="8">Argentina +54</option>                
+              </select>
+              <input type="text" placeholder="Mobile number"
+                style="height: 41px; width:370px; border-radius: 0.25rem; border: 1px solid #ced4da;">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1"><b>Email</b> </label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1"><b>Password</b></label>
+              <input type="password" class="form-control" id="exampleInputPassword1"
+                placeholder="At least 6 characters">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1"> <b>Confirm Password</b></label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div>We will send you a text to verify your phone.</div>
+
+            <div>Message and Data rates any apply.</div>
+            <div class="my-2" style="display:flex; justify-content:center;">
+              <button type="submit" class="btn btn-warning" style="width:400px;">Continue</button>
+            </div>
+            <hr>
+            <p>Already have an account? &ensp; <span class="text-primary">Sign in &ensp; <i class='fas fa-angle-right'
+                  style="color:#007bff;"></i></span></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
   <!-- section 1  -->
   <section id="home">
     <div data-aos="zoom-out" data-aos-delay="100">
@@ -289,6 +354,9 @@
     </footer>
 </div>
 <!-- script tags -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
