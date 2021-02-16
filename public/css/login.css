@@ -8,12 +8,14 @@ form h2{
   font-weight: 900;
   margin-bottom: 40px;
 }
+
 form {
     width: 360px;
     margin: 15rem auto;
     padding: 30px;
     box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.2);
     border-radius: 10px;
+    z-index: 100;
     background: white;
 }
 

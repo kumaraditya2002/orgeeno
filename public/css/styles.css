@@ -102,7 +102,11 @@ nav li {
 
 
 /* signup */
-
+#b{
+  background:none;
+  font-size: 3px;
+  
+}
 
   /* footer style */
 .footer {
